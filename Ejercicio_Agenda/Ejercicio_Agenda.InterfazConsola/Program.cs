@@ -10,6 +10,9 @@ namespace Ejercicio_Agenda.InterfazConsola
     {
         static void Main(string[] args)
         {
+            Contacto c1 = new Contacto("Marcelo");
+            Contacto c2 = new Contacto("Suyai");
+            Contacto c3 = new Contacto("Ariel");
         }
     }
 }
