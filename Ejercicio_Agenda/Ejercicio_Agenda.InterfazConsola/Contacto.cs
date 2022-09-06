@@ -10,10 +10,14 @@ namespace Ejercicio_Agenda.InterfazConsola
     {
         //El constructor es el punto de acceso por donde se crea la instancia
 
-        public Contacto(string nombre)
+        public Contacto(string nombre, string apellido, string telefono, string direccion, int edad)
         {
             _nombre = nombre;
-            _llamadas = 0;
+            _apellido = apellido;
+            _telefono = telefono;
+            _direccion = direccion;
+            _edad = edad;
+            _llamadas = 0;   
         }
 
         //atributo de clase
@@ -22,6 +26,7 @@ namespace Ejercicio_Agenda.InterfazConsola
         private string _direccion;
         private string _telefono;
         private int _llamadas;
+        private int _edad;
 
         
 
@@ -44,6 +49,44 @@ namespace Ejercicio_Agenda.InterfazConsola
             }
         }
 
+        public string Apellido
+        {
+            get
+            {
+                return _apellido;
+            }
+            set
+            {
+                _apellido = value;
+            }
+        }
+
+        private string Direccion
+        {
+            get
+            {
+                return _direccion;
+            }
+            set
+            {
+                _direccion = value;
+            }
+        }
+        
+        private string Telefono
+        {
+            get
+            {
+                return _telefono;
+            }
+            set
+            {
+                _telefono = value;
+            }
+        }
+
+
+
         public int Llamadas
         {
             get
@@ -52,10 +95,14 @@ namespace Ejercicio_Agenda.InterfazConsola
             }
         }
 
-        //public int edad()
-        //{
-
-        //}
+        public int edad
+        {
+            get
+            {
+                return _edad;
+            }
+               
+        }
             
 
     }
