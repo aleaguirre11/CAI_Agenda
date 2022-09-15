@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Agenda.InterfazConsola", "Ejercicio_Agenda.InterfazConsola\Ejercicio_Agenda.InterfazConsola.csproj", "{1904B93A-DA96-4860-8DF6-A4C404E15925}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoAgenda.Entidades", "ProyectoAgenda.Entidades\ProyectoAgenda.Entidades.csproj", "{9C078193-32D8-48B3-81AA-484A357CBCBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1904B93A-DA96-4860-8DF6-A4C404E15925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1904B93A-DA96-4860-8DF6-A4C404E15925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1904B93A-DA96-4860-8DF6-A4C404E15925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C078193-32D8-48B3-81AA-484A357CBCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C078193-32D8-48B3-81AA-484A357CBCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C078193-32D8-48B3-81AA-484A357CBCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C078193-32D8-48B3-81AA-484A357CBCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_Agenda.InterfazConsola
+namespace ProyectoAgenda.Entidades
 {
     public class Contacto
     {
@@ -61,7 +61,7 @@ namespace Ejercicio_Agenda.InterfazConsola
             }
         }
 
-        private string Direccion
+        public string Direccion
         {
             get
             {
@@ -73,15 +73,11 @@ namespace Ejercicio_Agenda.InterfazConsola
             }
         }
         
-        private string Telefono
+        public string Telefono
         {
             get
             {
                 return _telefono;
-            }
-            set
-            {
-                _telefono = value;
             }
         }
 
