@@ -80,9 +80,6 @@ namespace ProyectoAgenda.Entidades
                 return _telefono;
             }
         }
-
-
-
         public int Llamadas
         {
             get

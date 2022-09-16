@@ -6,3 +6,6 @@ C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_
 C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\obj\Debug\Ejercicio_Agenda.InterfazConsola.csproj.CoreCompileInputs.cache
 C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\obj\Debug\Ejercicio_Agenda.InterfazConsola.exe
 C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\obj\Debug\Ejercicio_Agenda.InterfazConsola.pdb
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\bin\Debug\ProyectoAgenda.Entidades.dll
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\bin\Debug\ProyectoAgenda.Entidades.pdb
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Agenda\Ejercicio_Agenda\Ejercicio_Agenda.InterfazConsola\obj\Debug\Ejercicio_Agenda.InterfazConsola.csproj.CopyComplete

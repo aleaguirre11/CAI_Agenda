@@ -31,6 +31,14 @@ namespace ProyectoAgenda.Entidades
             }
         }
 
+        public List<Contacto> Contactos
+        {
+            get
+            {
+                return _contactos;
+            }
+        }
+
         public void AgregarContacto(Contacto contacto)
         {
             //valido que el contacto no exista. REGLA DE NEGOCIO: NO TELEFONOS REPETIDOS
