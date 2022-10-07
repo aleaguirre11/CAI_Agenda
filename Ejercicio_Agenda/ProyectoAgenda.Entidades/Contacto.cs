@@ -86,6 +86,10 @@ namespace ProyectoAgenda.Entidades
             {
                 return _llamadas;    //------> Solo lectura(no tiene set)
             }
+            set
+            {
+                _llamadas = value;   
+            }
         }
 
         public int edad
@@ -97,6 +101,9 @@ namespace ProyectoAgenda.Entidades
                
         }
             
-
+        public void Llamar()
+        {
+            Llamadas++;
+        }
     }
 }

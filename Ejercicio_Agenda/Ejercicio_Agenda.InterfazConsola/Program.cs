@@ -34,19 +34,18 @@ namespace Ejercicio_Agenda.InterfazConsola
                     {
                         case "1":
                             Listar(agendaElectronica);
-
                             break;
 
                         case "2":
                             Agregar(agendaElectronica);
-
                             break;
 
                         case "3":
                             eliminarContacto(agendaElectronica);
-
                             break;
-
+                        case "4":
+                            Llamar(agendaElectronica);
+                            break;
                         case "x":
                             consolaActiva = false;
                             break;
@@ -65,14 +64,14 @@ namespace Ejercicio_Agenda.InterfazConsola
 
         public static void DesplegarOpcionesMenu()
         {
-            Console.WriteLine("Seleccione la opcion deseada");
+            Console.WriteLine("1- Mostrar lista de contactos. " + "\n" + "2- Agregar contacto. " + "\n" + "3- Eliminar contacto. " + "\n" + "4- Llamar");
         }
 
         public static void Listar(Agenda agenda)
         {
             foreach(Contacto c in agenda.Contactos)
             {
-                Console.WriteLine(c.Nombre + "-" + c.Telefono + "\n");
+                Console.WriteLine(c.Nombre + " - " + c.Telefono + " - " + c.Llamadas);
             }
         }
 
@@ -98,25 +97,25 @@ namespace Ejercicio_Agenda.InterfazConsola
             agendaElectronica.AgregarContacto(c1);
         }
 
-        public static void eliminarContacto(Agenda agenda)
+        public static void eliminarContacto(Agenda agendaElectronica)
         { 
             Console.WriteLine("Ingrese el telefono del contacto a eliminar: ");
             string telefono = Console.ReadLine();
 
-            foreach (Contacto c in agenda.Contactos)
+            agendaElectronica.EliminarContacto(telefono);   
+        }
 
-            {
-                if (c.Telefono == telefono)
-                {
-                    agenda.Remove(c);
-                    Console.WriteLine("Contacto eliminado.");
-                } 
+        //public static void Traer(Agenda agendaElectronica)
+        //{
+            //agendaElectronica.TraerContactoFrecuente();
+        //}
 
-                else
-                {
-                    Console.WriteLine("No se encuentra el contacto.");
-                }
-            }
+        public static void Llamar(Agenda agendaElectronica)
+        {
+            Console.WriteLine("Ingrese el nombre del contacto a llamar: ");
+            string nombre = Console.ReadLine();
+
+            agendaElectronica.LlamarContacto(nombre);
         }
     }
 }
